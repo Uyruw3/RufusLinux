@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=RufusLinux
+GenericName=Bootable USB Creator
+Comment=Create bootable USB drives from ISO images
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Categories=System;Utility;
+Keywords=usb;boot;iso;rufus;windows;linux;image;
+StartupNotify=true

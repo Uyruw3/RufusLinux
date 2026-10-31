@@ -1,0 +1,19 @@
+RufusLinux bundles and adapts work from other GPL-3.0 projects.
+
+1. resources/uefi-ntfs.img
+   - From the Rufus project: https://github.com/pbatard/rufus
+   - Copyright (C) Pete Batard and contributors.
+   - Licensed under GPL-3.0. This is the UEFI:NTFS bootloader used to boot
+     NTFS-formatted Windows installation media on UEFI firmware.
+
+2. Windows USB creation logic (partitioning, formatting, install.wim
+   splitting, GRUB legacy chainloading, UEFI:NTFS integration)
+   - Adapted from WoeUSB and WoeUSB-ng:
+     https://github.com/WoeUSB/WoeUSB-ng
+   - Copyright (C) Colin Gille / congelli501 and WoeUSB contributors.
+   - Licensed under GPL-3.0.
+
+3. RufusLinux itself is licensed under GPL-3.0-or-later. See LICENSE.
+
+Rufus and WoeUSB are not affiliated with this project; their names are used
+only for attribution.

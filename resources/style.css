@@ -1,0 +1,48 @@
+/* RufusLinux - a light Rufus-inspired skin for GTK3 */
+
+.hero {
+    background-image: linear-gradient(to bottom, #1b3f6b, #102a49);
+    border-bottom: 1px solid #0a1c31;
+}
+
+.hero-title,
+.hero-subtitle,
+.hero-badge {
+    color: #ffffff;
+}
+
+.hero-badge {
+    opacity: 0.75;
+    font-size: 90%;
+}
+
+.section {
+    border: 1px solid #d5d8dc;
+    border-radius: 6px;
+}
+
+.dim {
+    color: #6b7075;
+}
+
+.footer {
+    border-top: 1px solid #d5d8dc;
+}
+
+.start-button {
+    background-image: linear-gradient(to bottom, #2f7ed8, #1f5fa8);
+    border: 1px solid #174a85;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.start-button:hover {
+    background-image: linear-gradient(to bottom, #3b8de8, #2568b5);
+}
+
+.start-button:disabled {
+    background-image: none;
+    color: #9aa0a6;
+    border-color: #cfd3d7;
+}
